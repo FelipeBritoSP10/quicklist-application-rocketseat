@@ -2,7 +2,7 @@
 
 > Aplicação web leve e responsiva para gerenciar a lista de compras da semana, desenvolvida como desafio prático da [Rocketseat](https://www.rocketseat.com.br/).
 
-[![Status](https://img.shields.io/badge/status-concluído-brightgreen.svg)]()
+[![Status](https://img.shields.io/badge/status-andamento-yellow.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
