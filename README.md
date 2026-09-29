@@ -53,7 +53,7 @@ cd quicklist
 # Suba um servidor local (necessário para ES Modules)
 npx serve .
 
-```markdown
+```
 ## 🏗️ Arquitetura, Separação de Responsabilidades e Padrões
 
 A aplicação foi estruturada seguindo uma **arquitetura em camadas com Vanilla JavaScript moderno**, buscando uma clara **separação de responsabilidades (Separation of Concerns)**, alta coesão e baixo acoplamento entre os módulos.
