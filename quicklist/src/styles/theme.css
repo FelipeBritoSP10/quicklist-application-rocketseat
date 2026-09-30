@@ -1,0 +1,40 @@
+:root {
+    --bs-body-bg: #F3E9EE;
+    --bs-body-font-family: "Inter", sans-serif;
+    --bs-link-color-rgb: 176, 36, 109;
+    --bs-link-hover-color-rgb: 143, 28, 88;
+}
+
+.text-brand {
+    color: #B0246D;
+}
+
+.btn-primary {
+    --bs-btn-bg: #B0246D;
+    --bs-btn-border-color: #B0246D;
+    --bs-btn-hover-bg: #8F1C58;
+    --bs-btn-hover-border-color: #8F1C58;
+    --bs-btn-active-bg: #8F1C58;
+    --bs-btn-active-border-color: #8F1C58;
+    --bs-btn-focus-shadow-rgb: 176, 36, 109;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #B0246D;
+    --bs-btn-border-color: #B0246D;
+    --bs-btn-hover-bg: #B0246D;
+    --bs-btn-hover-border-color: #B0246D;
+    --bs-btn-active-bg: #8F1C58;
+    --bs-btn-active-border-color: #8F1C58;
+    --bs-btn-focus-shadow-rgb: 176, 36, 109;
+}
+
+.form-check-input:checked {
+    background-color: #B0246D;
+    border-color: #B0246D;
+}
+
+.form-control:focus {
+    border-color: #B0246D;
+    box-shadow: 0 0 0 .25rem rgba(176, 36, 109, .25);
+}
