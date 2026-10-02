@@ -7,6 +7,43 @@
   --bs-border-radius: 8px;
 }
 
+/* 1. Botão Sólido "Adicionar item" (.btn-primary) */
+.btn-primary {
+  --bs-btn-color: #ffffff !important;
+  --bs-btn-bg: #c42a6b !important;
+  --bs-btn-border-color: #c42a6b !important;
+  --bs-btn-hover-color: #ffffff !important;
+  --bs-btn-hover-bg: #a82058 !important;
+  --bs-btn-hover-border-color: #a82058 !important;
+  --bs-btn-focus-shadow-rgb: 196, 42, 107 !important;
+  --bs-btn-active-bg: #8e1848 !important;
+  --bs-btn-active-border-color: #8e1848 !important;
+  background-color: #c42a6b !important;
+  border-color: #c42a6b !important;
+}
+
+/* 2. Botão Outline "Voltar" (.btn-outline-primary) */
+.btn-outline-primary {
+  --bs-btn-color: #c42a6b !important;
+  --bs-btn-border-color: #c42a6b !important;
+  --bs-btn-hover-color: #ffffff !important;
+  --bs-btn-hover-bg: #c42a6b !important;
+  --bs-btn-hover-border-color: #c42a6b !important;
+  --bs-btn-focus-shadow-rgb: 196, 42, 107 !important;
+  --bs-btn-active-bg: #a82058 !important;
+  --bs-btn-active-border-color: #a82058 !important;
+  color: #c42a6b !important;
+  border-color: #c42a6b !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: #c42a6b !important;
+  border-color: #c42a6b !important;
+  color: #ffffff !important;
+}
+
 /* Toast de Alerta */
 .toast {
   background-color: #c8374d !important;
