@@ -1,0 +1,17 @@
+{
+  "name": "Quicklist - Lista de Compras",
+  "short_name": "Quicklist",
+  "description": "Gerenciamento ágil e offline de listas de compras",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3081/3081559.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

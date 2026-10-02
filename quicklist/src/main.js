@@ -5,6 +5,9 @@ import { BackButton } from "./components/BackButton.js";
 import { ItemForm } from "./components/ItemForm.js";
 import { ItemList } from "./components/ItemList.js";
 import { Toast } from "./components/Toast.js";
+import { registerServiceWorker } from './src/pwa/pwa.js';
+
+registerServiceWorker();
 
 const toast = Toast({ message: "O item foi removido da lista" });
 
