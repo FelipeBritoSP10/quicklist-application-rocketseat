@@ -7,8 +7,7 @@ export const BackButton = ({ onClick } = {}) =>
     "a",
     {
       href: "#",
-      class:
-        "text-decoration-none d-inline-flex align-items-center gap-1 fw-semibold mb-3 back-link",
+      class: "text-decoration-none d-inline-flex align-items-center gap-1 fw-semibold mb-3 back-link",
       onClick,
     },
     html(ARROW),
