@@ -1,7 +1,6 @@
 import { el } from "./src/utils/dom.js";
 import { store } from "./src/state/store.js";
 import { Logo } from "./src/components/Logo.js";
-import { BackButton } from "./src/components/BackButton.js";
 import { ItemForm } from "./src/components/ItemForm.js";
 import { ItemList } from "./src/components/ItemList.js";
 import { Toast } from "./src/components/Toast.js";
