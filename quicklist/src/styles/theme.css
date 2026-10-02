@@ -22,26 +22,15 @@
   border-color: #c42a6b !important;
 }
 
-/* 2. Botão Outline "Voltar" (.btn-outline-primary) */
-.btn-outline-primary {
-  --bs-btn-color: #c42a6b !important;
-  --bs-btn-border-color: #c42a6b !important;
-  --bs-btn-hover-color: #ffffff !important;
-  --bs-btn-hover-bg: #c42a6b !important;
-  --bs-btn-hover-border-color: #c42a6b !important;
-  --bs-btn-focus-shadow-rgb: 196, 42, 107 !important;
-  --bs-btn-active-bg: #a82058 !important;
-  --bs-btn-active-border-color: #a82058 !important;
+/* 2. Link de Voltar em Texto (.back-link) */
+.back-link {
   color: #c42a6b !important;
-  border-color: #c42a6b !important;
+  transition: color 0.2s ease-in-out;
 }
 
-.btn-outline-primary:hover,
-.btn-outline-primary:focus,
-.btn-outline-primary:active {
-  background-color: #c42a6b !important;
-  border-color: #c42a6b !important;
-  color: #ffffff !important;
+.back-link:hover {
+  color: #a82058 !important;
+  text-decoration: underline !important;
 }
 
 /* Toast de Alerta */
@@ -50,4 +39,6 @@
   color: #fff !important;
   border: 0 !important;
 }
-.toast-body { color: #fff !important; }
+.toast-body { 
+  color: #fff !important; 
+}
