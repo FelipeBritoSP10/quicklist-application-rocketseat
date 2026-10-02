@@ -1,40 +1,65 @@
 :root {
-    --bs-body-bg: #F3E9EE;
-    --bs-body-font-family: "Inter", sans-serif;
-    --bs-link-color-rgb: 176, 36, 109;
-    --bs-link-hover-color-rgb: 143, 28, 88;
+  --primary-pink: #c42a6b;
+  --primary-pink-hover: #a82058;
+  --toast-red: #c8374d;
+  --text-dark: #1f2937;
+  --border-light: #e5e7eb;
 }
 
-.text-brand {
-    color: #B0246D;
+body {
+  background-color: #ffffff;
+  color: var(--text-dark);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-.btn-primary {
-    --bs-btn-bg: #B0246D;
-    --bs-btn-border-color: #B0246D;
-    --bs-btn-hover-bg: #8F1C58;
-    --bs-btn-hover-border-color: #8F1C58;
-    --bs-btn-active-bg: #8F1C58;
-    --bs-btn-active-border-color: #8F1C58;
-    --bs-btn-focus-shadow-rgb: 176, 36, 109;
+.btn-primary, 
+.btn-pink {
+  background-color: var(--primary-pink) !important;
+  border-color: var(--primary-pink) !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  padding: 10px 20px !important;
 }
 
-.btn-outline-primary {
-    --bs-btn-color: #B0246D;
-    --bs-btn-border-color: #B0246D;
-    --bs-btn-hover-bg: #B0246D;
-    --bs-btn-hover-border-color: #B0246D;
-    --bs-btn-active-bg: #8F1C58;
-    --bs-btn-active-border-color: #8F1C58;
-    --bs-btn-focus-shadow-rgb: 176, 36, 109;
+.btn-primary:hover, 
+.btn-pink:hover {
+  background-color: var(--primary-pink-hover) !important;
+  border-color: var(--primary-pink-hover) !important;
+}
+
+.form-control {
+  border-radius: 8px !important;
+  border: 1px solid var(--border-light) !important;
+  padding: 10px 14px !important;
 }
 
 .form-check-input:checked {
-    background-color: #B0246D;
-    border-color: #B0246D;
+  background-color: var(--primary-pink) !important;
+  border-color: var(--primary-pink) !important;
 }
 
-.form-control:focus {
-    border-color: #B0246D;
-    box-shadow: 0 0 0 .25rem rgba(176, 36, 109, .25);
+a, .btn-link {
+  color: var(--primary-pink);
+  text-decoration: none;
+}
+
+.btn-delete, .text-danger-custom {
+  color: var(--primary-pink) !important;
+  background: transparent;
+  border: none;
+}
+
+.toast, 
+.toast-container .toast {
+  background-color: var(--toast-red) !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.toast-body {
+  color: #ffffff !important;
+  font-weight: 500;
 }
