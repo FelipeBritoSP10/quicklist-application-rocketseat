@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quicklist-v10';
+const CACHE_NAME = 'quicklist-v11';
 
 const STATIC_ASSETS = [
   './',
@@ -6,6 +6,16 @@ const STATIC_ASSETS = [
   './main.js',
   './manifest.json',
   './src/styles/theme.css',
+  './src/utils/dom.js',
+  './src/state/store.js',
+  './src/services/storage.js',
+  './src/pwa/pwa.js',
+  './src/components/Logo.js',
+  './src/components/BackButton.js',
+  './src/components/ItemForm.js',
+  './src/components/ItemList.js',
+  './src/components/ListItem.js',
+  './src/components/Toast.js',
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css',
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js'
 ];
